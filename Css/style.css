@@ -82,4 +82,37 @@ p:first-child {
 
 .subsongbox {
   display: flex;
+  height: 80px;
+  margin: 40px 0px;
+}
+.subsong {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+.tomato {
+  background-color: tomato;
+}
+.hotpink {
+  background-color: hotpink;
+}
+.blue {
+  background-color: royalblue;
+}
+.mint {
+  background-color: darkturquoise;
+}
+.subsongname {
+  height: 50px;
+  width: 150px;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.subsongname p {
+  margin: 0px;
+  font-size: 15px;
 }
