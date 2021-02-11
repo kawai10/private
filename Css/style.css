@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "topbar.css";
 @import "firstcontent.css";
+@import "secondcontent.css";
 body {
   height: 100vh;
 }
@@ -15,34 +16,26 @@ body {
   width: 400px;
   padding-left: 15px;
 }
-.adventures__box {
-  width: 70px;
-  height: 100px;
-  margin-right: 30px;
-  border-radius: 5px;
-}
-.adventures__box:first-child {
-  background-color: tomato;
-}
-.adventures__box:nth-child(2) {
-  background-color: orange;
-}
-.adventures__box:nth-child(3) {
-  background-color: yellow;
-}
-.adventures__box:nth-child(4) {
-  background-color: green;
-}
-.second__maincontent {
+
+.authors {
   display: flex;
-  height: 100px;
-  width: 400px;
-  padding-left: 15px;
+  width: 500px;
 }
-.maincontent__smallstar {
-  display: flex;
-  width: 600px;
+
+.authors__img {
+  width: 25%;
+  height: 120px;
+  background-color: skyblue;
+  margin-left: 15px;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
-.adventures__star {
-  color: gold;
+
+.authors__text {
+  margin-left: 30px;
+  width: 45%;
+}
+
+p {
+  color: rgb(0, 0, 0, 0.2);
 }
