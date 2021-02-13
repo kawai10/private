@@ -1,0 +1,31 @@
+.songs-list {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 10px 15px;
+  background-color: whitesmoke;
+}
+
+.songs-list__image {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+}
+.songs-list__text {
+  width: 70%;
+  margin-left: 20px;
+}
+
+.songs-list__text--title {
+  margin-bottom: 10px;
+}
+
+.songs-list:nth-child(2) {
+  background-color: snow;
+  border-radius: 15px;
+  box-shadow: 8px 8px 12px snow;
+}
+
+.ellip {
+  color: rgba(0, 0, 0, 0.5);
+}
