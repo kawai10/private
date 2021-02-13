@@ -1,0 +1,13 @@
+.statusbar__time {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0px;
+}
+
+#statusbar__timelabel {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4);
+  padding: 0 3px;
+}

@@ -1,0 +1,22 @@
+.playbutton-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+
+.playbutton-list i {
+  font-size: 20px;
+}
+
+.playbutton-list i:first-child {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.playbutton-list i:last-child {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.playbutton-list i:nth-child(3) {
+  font-size: 60px;
+}

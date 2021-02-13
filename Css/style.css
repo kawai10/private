@@ -3,13 +3,18 @@
 @import "button.css";
 @import "eminemsongs.css";
 @import "playbuttonbox.css";
-
+@import "screen.css";
+@import "statusbar.css";
+@import "playbutton.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
 :root {
   --fontsize-h1: 35px;
   --fontsize-h2: 17px;
   --fontsize-h4: 13px;
+  --color: rgba(0, 0, 0, 0.5);
 }
 body {
+  font-family: "Noto Sans JP", sans-serif;
   height: 1000px;
   width: 700px;
   color: black;
@@ -26,7 +31,7 @@ h2 {
 }
 h4 {
   font-size: var(--fontsize-h4);
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--color);
 }
 
 .base-box {
@@ -50,7 +55,7 @@ h4 {
   height: 65px;
   width: 65px;
   border-radius: 50%;
-  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 12px var(--color);
 }
 
 .singer__name {
